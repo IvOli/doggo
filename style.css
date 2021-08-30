@@ -1,0 +1,43 @@
+
+h1{
+    font-size: 48px;
+    text-align: start;
+}
+.perritos{
+    z-index: -1;
+}
+.perrito > img{
+    border-radius: 10px;
+    width: 100%;
+    height: 95px;
+    object-fit:cover;
+    object-position: 90% 10%;
+    cursor: pointer;
+    margin: 5px 0 5px 0;
+}
+
+.perro {
+    border-radius: 10px;
+    width: 100%;
+    height: 350px;
+    object-position: 90% 10%;
+    object-fit: cover;
+    margin: 10px 0 10px 0;
+}
+.breed{
+    margin-bottom: 20px;
+}
+.ask{
+    width: 100%;
+    background-color: cornflowerblue;
+    margin: 20px 0 20px 0;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 24px;
+}
+
+.found {
+    border: 1px solid black;
+    border-radius: 10px;
+}
