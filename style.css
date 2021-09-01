@@ -1,4 +1,6 @@
-
+.barra-navegacion{
+    justify-content: space-between;
+}
 h1{
     font-size: 48px;
     text-align: start;
@@ -19,7 +21,7 @@ h1{
 .perro {
     border-radius: 10px;
     width: 100%;
-    height: 350px;
+    height: 440px;
     object-position: 90% 10%;
     object-fit: cover;
     margin: 10px 0 10px 0;
@@ -38,6 +40,49 @@ h1{
 }
 
 .found {
-    border: 1px solid black;
     border-radius: 10px;
+    padding: 20px;
+    background-color: #d1c4e9;
 }
+
+.linea {
+    margin: 1.5rem 0;
+}
+.logodog{
+    display: flex;
+    justify-content: center;
+}
+.form-email{
+    border-radius: 10px;
+    padding: 30px;
+    background-color: #e1f5fe;
+}
+
+.socialmedia{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+@media (min-width:768px) {
+    .custom-order-perritos{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+    }
+    .barra-navegacion{
+        font-size: 24px;
+    }
+
+    /* .ask2{
+        display: flex;
+        justify-content: flex-start;
+    } */
+
+    .container-ask{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    
+}
+
